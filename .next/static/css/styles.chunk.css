@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000; }
+
+body {
+  background: #F4F4F4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .Cards .coin {
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 40px -20px rgba(0, 0, 0, 0.05);
+    margin: 10px; }
+    .Cards .coin .time-txt {
+      margin-top: 2px;
+      font-size: 14px; }
+
+footer p {
+  color: #333; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
